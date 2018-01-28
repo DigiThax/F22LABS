@@ -12,6 +12,7 @@ def match(str1,str2,temp):
             if(str1[i] == str2[j]):
                 temp = temp[:j] + str1[i] + temp[j+1:]
                 correct += 1
+    print("You got {} correct letters in this attempt".format(correct))
     return temp
 
 
@@ -24,7 +25,10 @@ print("The length of the word is {} letters long".format(len(word)))
 while(temp != word):
     attempt += 1
     print("Attempt #{}".format(attempt))
-    ch = raw_input()
+    ch = input()
+    #The line below removes repeating letters from the user's input
+    #This way, 'count' in the match UDF does not increment more than once 
+    ch = "".join(set(ch))
     temp = match(ch,word,temp)
     print(temp)
 
