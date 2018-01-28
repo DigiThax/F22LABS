@@ -1,3 +1,6 @@
+#Note: Inorder to use the random word generator function, you'll need the official RandomWords package
+#pip install RandomWords
+
 from random_words import RandomWords
 
 #UDF that replaces '_' with the correct letter. This gives the user the required
