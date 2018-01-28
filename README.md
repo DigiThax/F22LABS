@@ -1,3 +1,4 @@
 # F22LABS
 
-Final code will be in a folder called FIN, pushing bare minimum code atm
+Final code is WordGameV2.py
+The AI vs man code will come up soon
