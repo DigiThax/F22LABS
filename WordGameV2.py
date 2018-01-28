@@ -26,6 +26,6 @@ while(temp != word):
     print("Attempt #{}".format(attempt))
     ch = raw_input()
     temp = match(ch,word,temp)
-    print temp
+    print(temp)
 
 print("Congratulations, you have correctly guessed the word in {} attempts".format(attempt))
