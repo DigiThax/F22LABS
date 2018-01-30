@@ -7,10 +7,10 @@ from random_words import RandomWords
 #feedback: (i)If the user used the correct letter (ii)Position of that letter
 def match(str1,str2,temp):
     correct = 0
-    for i in range (len(str1)):
-        for j in range(len(str2)):
+    for i in range (len(str1)): #Str1 is the word that the user guessed
+        for j in range(len(str2)): #Str2 is the actual word
             if(str1[i] == str2[j]):
-                temp = temp[:j] + str1[i] + temp[j+1:]
+                temp = temp[:j] + str1[i] + temp[j+1:] #Replace the '_' with the correct letter
                 correct += 1
     print("You got {} correct letters in this attempt".format(correct))
     return temp
