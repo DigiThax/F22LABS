@@ -1,5 +1,7 @@
-#Run in python2
-#I will provide comments to it tonight
+#Run in python2, I will make the necessary py3 syntax changes tonight
+#I will also provide comments to it tonight
+#Note: You may get indent. error, that will be because I directly copied it from my crippled Linux machine to my github page
+#I will upload a screenshot to show the working code
 
 from random_words import RandomWords
 
