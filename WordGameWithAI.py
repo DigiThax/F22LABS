@@ -13,10 +13,6 @@ def ai_match(guess,word):
 	print("AI got {} correct".format(len(crt)))
 
 	return crt
-
-#def ffl(guess,word):
-#	if(guess[0] == word[0]):
-#		return guess[0]
 	
 def ffl(guess,word):
 	if(guess[0] == word[0]):
