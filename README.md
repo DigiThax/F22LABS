@@ -1,3 +1,3 @@
 # F22LABS
 
-The folder 'Game Engine' contains the final program
+The folder 'WordGame' contains the final program
