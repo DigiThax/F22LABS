@@ -129,7 +129,7 @@ while(temp != word and attempt < 10):
 		fl = ffl(guess,word)
 		correct.extend(ai_match(guess,word))
 		correct = list(set(correct))
-		print(correct)
+		
 		if(set(word)-set(correct) == set([])):
 			ai = attempt
 
@@ -139,4 +139,4 @@ else:
     print("AI could not solve in given attempts")
 if(ai == 10 or temp!=word):
     print ("the word was {}".format(word))
-    print(correct)
+   
